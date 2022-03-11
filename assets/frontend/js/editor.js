@@ -5,8 +5,8 @@
 
     $( window ).on( 'elementor:init', function() {
 
-		// Add "finest-addons" specific css class to elementor body
-        $('.elementor-editor-active').addClass('finest-addons');
+		// Add "quiktheme-addons" specific css class to elementor body
+        $('.elementor-editor-active').addClass('quik-theme-addons');
 
         if ( window.elementor ) {
             // Add item to contextMenu on Elementor load
@@ -39,7 +39,7 @@
         // Push new context item inside clipboard
         groups[clipboard_index].actions.push( {
             name: 'euis-add-nested-section',
-            title: 'Add Nested Section',
+            title: 'Quik Add Nested Section',
             icon: 'eicon-clone',
             callback: function() {
                 insertNestedSection( element );
@@ -85,7 +85,7 @@
                 return;
             }
             var model = context.model,
-                customCSS = model.get('settings').get('finest_custom_css');
+                customCSS = model.get('settings').get('quik_theme_custom_css');
 
             var selector = '.elementor-element.elementor-element-' + model.get('id');
 

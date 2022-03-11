@@ -1,9 +1,9 @@
-=== Finest ===
-Contributors: finest
-Donate link: https://profiles.wordpress.org/finest/
-Tags: Elementor, Elementor Addons, Elementor Free Custom Css, finest
+=== Quik Theme Addons ===
+Contributors: finestdevs
+Donate link: https://finestdevs.com/product-support
+Tags: Elementor, Elementor Addons, Elementor Free Custom Css, quik
 Requires at least: 5.0
-Tested up to: 5.8.1
+Tested up to: 5.9
 Requires PHP: 5.6
 License: GPl V2
 License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
@@ -14,12 +14,14 @@ Stable tag: 1.0.0
 
 <p>
 
-Finest Addons For Elementor Helper Plugin
+Quiktheme Addons For Elementor Helper Plugin
 
 == Feature ==
-* Custom CSS
+* CreativeButton
+* DualButton
+* InlineButton
+* DualHeading
 * Nested section
-
 
 </p>
 
