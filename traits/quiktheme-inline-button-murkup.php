@@ -26,7 +26,7 @@ trait Quik_Theme_Inline_Button_Markup
             </link-hover>
         </div>
 EOF;
-        echo $markup;
+        printf('%s', $markup);
     }
 
     public static function render_io_markup( $settings ){
@@ -43,7 +43,7 @@ EOF;
             </link-hover>
         </div>
 EOF;
-        echo $markup;
+        printf('%s', $markup);
     }
 
     public static function render_thebe_markup( $settings ){
@@ -60,7 +60,7 @@ EOF;
             </link-hover>
         </div>
 EOF;
-        echo $markup;
+        printf('%s', $markup);
     }
 
     public static function render_leda_markup( $settings ){
@@ -79,7 +79,7 @@ EOF;
             </link-hover>
         </div>
 EOF;
-        echo $markup;
+        printf('%s', $markup);
     }
 
     public static function render_ersa_markup( $settings ){
@@ -98,7 +98,7 @@ EOF;
             </link-hover>
         </div>
 EOF;
-        echo $markup;
+        printf('%s', $markup);
     }
 
     public static function render_elara_markup( $settings ){
@@ -117,7 +117,7 @@ EOF;
             </link-hover>
         </div>
 EOF;
-        echo $markup;
+        printf('%s', $markup);
     }
 
     public static function render_dia_markup( $settings ){
@@ -134,7 +134,7 @@ EOF;
             </link-hover>
         </div>
 EOF;
-        echo $markup;
+        printf('%s', $markup);
     }
 
     public static function render_kale_markup( $settings ){
@@ -151,7 +151,7 @@ EOF;
             </link-hover>
         </div>
 EOF;
-        echo $markup;
+        printf('%s', $markup);
     }
 
     public static function render_carpo_markup( $settings ){
@@ -168,7 +168,7 @@ EOF;
             </link-hover>
         </div>
 EOF;
-        echo $markup;
+        printf('%s', $markup);
     }
 
     public static function render_helike_markup( $settings ){
@@ -185,7 +185,7 @@ EOF;
             </link-hover>
         </div>
 EOF;
-        echo $markup;
+        printf('%s', $markup);
     }
 
     public static function render_mneme_markup( $settings ){
@@ -202,7 +202,7 @@ EOF;
             </link-hover>
         </div>
 EOF;
-        echo $markup;
+        printf('%s', $markup);
     }
 
     public static function render_iocaste_markup( $settings ){
@@ -224,7 +224,7 @@ EOF;
             </link-hover>
         </div>
 EOF;
-        echo $markup;
+        printf('%s', $markup);
     }
 
     public static function render_herse_markup( $settings ){
@@ -244,7 +244,7 @@ EOF;
             </link-hover>
         </div>
 EOF;
-        echo $markup;
+        printf('%s', $markup);
     }
 
     public static function render_carme_markup( $settings ){
@@ -264,7 +264,7 @@ EOF;
             </link-hover>
         </div>
 EOF;
-        echo $markup;
+        printf('%s', $markup);
     }
 
     public static function render_eirene_markup( $settings ){
@@ -281,6 +281,6 @@ EOF;
             </link-hover>
         </div>
 EOF;
-        echo $markup;
+        printf('%s', $markup);
     }
 }

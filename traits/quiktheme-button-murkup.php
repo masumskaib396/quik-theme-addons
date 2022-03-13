@@ -20,7 +20,7 @@ trait Button_Markup {
 			<a $btn_attr>$btn_txt</a>
 		</div>
 EOF;
-        echo $markup;
+        printf('%s', $markup);
     }
 
     public function render_symbolab_markup($settings){
@@ -39,7 +39,7 @@ EOF;
 			<a $btn_attr>$btn_txt<i aria-hidden="true" class="$icon"></i></a>
 		</div>
 EOF;
-        echo $markup;
+        printf('%s', $markup);
     }
 
     public function render_iconica_markup($settings){
@@ -58,7 +58,7 @@ EOF;
 			<a $btn_attr><span>$btn_txt</span><i aria-hidden="true" class="$icon"></i></a>
 		</div>
 EOF;
-        echo $markup;
+        printf('%s', $markup);
     }
 
     public function render_montino_markup($settings){
@@ -85,7 +85,7 @@ EOF;
 			<a $btn_attr>$btn_txt</a>
 		</div>
 EOF;
-        echo $markup;
+        printf('%s', $markup);
     }
 
     public function render_hermosa_markup($settings){
@@ -115,7 +115,7 @@ EOF;
 			<a $btn_attr>$btn_txt</a>
 		</div>
 EOF;
-        echo $markup;
+        printf('%s', $markup);
     }
 
     public function split_word( $text ){
@@ -130,6 +130,6 @@ EOF;
 				$markup .= '<span>&nbsp;</span>';
 			}
 		}
-		return $markup;
+		printf('%s', $markup);
     }
 }
